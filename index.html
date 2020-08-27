@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Elements</title>
+</head>
+
+<body>
+    
+
+    <header>
+        <h1>Java</h1>
+        <h2>Table of Contents</h2>
+        
+
+        <nav>
+            <ol>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#features">Execution</a></li>
+                <li><a href="#logo">Logo</a></li>
+                <li><a href="#ref">References</a></li>
+            </ol>
+        </nav>
+    </header>
+    
+
+    <main>
+        
+
+        <article>
+            
+            <header id="intro">
+                <h2>Introduction</h2>
+            </header>
+            
+            <p>Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.</p>
+            <p>Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
+
+The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.</p>
+            
+
+            <aside>
+                <h4>API</h4>
+                <p>With the advent of Java 2 (released initially as J2SE 1.2 in December 1998 – 1999), new versions had multiple configurations built for different types of platforms. J2EE included technologies and APIs for enterprise applications typically run in server environments, <mark>while J2ME featured APIs optimized for mobile applications.</mark> The desktop version was renamed J2SE. In 2006, for marketing purposes, Sun renamed new J2 versions as Java EE, Java ME, and Java SE, respectively.</p>
+            </aside>
+            
+        </article>
+        
+
+        <section>
+            
+            <header id="history">
+                <h2>History</h2>
+            </header>
+            
+            <p>On November 13, 2006, Sun released much of its Java virtual machine (JVM) as free and open-source software (FOSS), under the terms of the GNU General Public License (GPL). On May 8, 2007, Sun finished the process, making all of its JVM's core code available under free software/open-source distribution terms, aside from a small portion of code to which Sun did not hold the copyright.</p>
+            
+        </section>
+        
+<!--    Our features section with smaller headings-->
+        <section>
+            
+            <header id="features">
+                <h2>Execution</h2>
+                <h4>Keeping up with times</h4>
+            </header>
+            
+            <p>One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support.\
+			This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End users commonly use a Java Runtime Environment (JRE) installed on their machine for standalone Java applications, or in a web browser for Java applets.
+            <h4>New APIs</h4>
+            <p>APIs work much the same way, except instead of your web browser asking for a webpage, your program asks for data. This data is usually returned in JSON format (for more on this, checkout our tutorial on working with JSON data). In order to get the data, we make a request to a webserver</p>
+            
+            <h4>Error Handling</h4>
+            <p>In Python, exceptions can be handled using a try statement. The critical operation which can raise an exception is placed inside the try clause. The code that handles the exceptions is written in the except clause. </p>
+            
+        </section>
+        
+
+        <section>
+            
+            <header id="logo">
+                <h2>Logo</h2>
+            </header>
+            
+            <figure>
+                <img src="data:image/png;base64,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" alt="Logo">
+                <figcaption>Java Logo</figcaption>
+            </figure>
+            
+        </section>
+        
+
+        <section>
+            
+            <header id="ref">
+                <h2>References</h2>
+            </header>
+            
+            <p>Contents of this sample have been adapted from the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java on Wikipedia</a>
+            </p>
+            
+        </section>
+        
+    </main>
+
+
+    <footer>
+        <p>Copyrights information...</p>
+
+        <details>
+            <summary>Authors</summary>
+            <p>Binstock, Andrew (May 20, 2015). "Java's 20 Years of Innovation". Forbes. Archived from the original on March 14, 2016. Retrieved March 18, 2016.</p>
+            <p> "The Arrival of Java 14!". Oracle. March 17, 2020. Retrieved March 17, 2020.</p>
+        </details>
+        <details>
+            <summary>Contact</summary>
+            <nav>
+             
+                <ul style="margin: 0; padding: 0; list-style-type: none;">
+                    <li style="display: inline;"><a href="mailto:jahnavigottimukkala@gmail.com" style="text-decoration: none; padding: .2em 1em;">email</a></li>
+                </ul>
+            </nav>
+        </details>
+    </footer>
+
+</body>
+
+</html>
